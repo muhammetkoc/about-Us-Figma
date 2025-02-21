@@ -1,0 +1,373 @@
+*{
+    font-family: "Noto Sans", serif;
+    
+}
+body{
+    background-color: #FAFBFC;
+}
+a {
+    text-decoration: none;
+    font-size:16px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #525252;
+}
+a:hover{
+    color: #171717;
+}
+.text-lg{
+    font-size: 12px;
+    line-height: 16px;
+}
+.text-lg-1{
+    font-size:18px;
+    line-height: 28px;
+}
+.text-4xl{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 500;/*medium*/
+}
+
+.text-5xl{
+    font-size:48px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.text-6xl{
+    font-size:60px;
+    line-height: 3.75rem;
+    font-weight: 600;/*semiBold*/
+}
+.large-blue-btn{
+    color:#FFFFFF;
+    background-color: #4338ca;
+    border-radius: 4px;
+    padding: 12px 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.large-blue-btn:hover{
+    background-color: #3730a3;
+}
+.blue-btn{
+    color:#FFFFFF;
+    background-color: #4338ca;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+.blue-btn:hover{
+    background-color: #3730a3;
+}
+.blue-btn:focus{
+    background: #3730a3;
+}
+
+.white-btn{
+    border: 0.50px solid #e5e5e5;
+    color:#000;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+.white-btn:hover{
+    background: #fafafa;
+}
+
+/*HEADER START*/
+.header-container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  16px 112px 0px 112px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+
+}
+.nav-container ul {
+    display: flex;
+    list-style-type: none;
+    gap: 36px;
+}
+.buttons{
+    display: flex;
+    gap:16px;
+}
+/*HEADER FINISH*/
+
+/*MAİN START*/
+main{
+    width: 1440px;
+    padding:  96px 112px 0px 112px;
+    margin: 16px auto 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+
+}
+.container{
+    
+}
+.row{
+    
+}
+/*MAIN FINISH*/
+
+
+/*SLIDER START*/
+.slider{
+    padding: 96px 0 ;
+}
+.slider .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    
+    
+}
+.slider-content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.slider-btn{
+    display: flex;
+    gap:10px;
+}
+.slider-img{
+    display: flex;
+}
+.slider-img{
+    width: 696px;
+    height: 526px;
+}
+/*SLIDER FINISH*/
+
+/*statistic start*/
+.statistics{
+    padding: 96px 0 ;
+}
+.statistics .container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.statistics-header{
+    text-align: center;
+    margin: 0 auto;
+}
+.statistics-header h2{
+    color:#4338ca;
+    font-size: 16px;
+}
+.statistics-header p{
+    font-size : 20px;
+}
+.statistics-content-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}   
+.statistics-img{
+    width: 592px;
+    height: 544px;
+}
+
+.statistics-content{
+    display: flex;
+    flex-direction: column; 
+    gap:32px;
+}
+.statistics-box{
+border: 1px solid #e5e5e5;
+border-radius: 8px;
+padding: 24px 0px;
+width: 591px;
+height: 140px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:16px
+}
+.statistics-box .numbers{
+    font-size:48px;
+    font-weight: 700;
+    color: #4338ca;
+}
+.statistics-box .inform{
+    font-size:20px;
+}
+/*statistic finish*/
+
+/*team start*/
+.team{
+    padding: 96px 0;
+}
+.team > .container{
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+}
+.team-header{
+    text-align: center;
+    margin: 0 auto;
+}
+.team-header h2{
+    color:#4338ca;
+    font-size: 16px;
+}
+.team-header p{
+    font-size : 20px;
+}
+.team-list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:10px;
+}
+.team-list ul > li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+.staf-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.name{
+    font-size:20px;
+    color:#171717;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.position{
+    font-size:20px;
+    color:#4338ca;
+    font-weight: 600;
+    line-height: 1.4;
+}
+/*team finish*/
+
+
+/*contact start*/
+.contact{
+    padding: 96px 0 ;
+}
+.contact >.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+.contact-information address > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap:16px;
+    
+}
+.contact-information address > ul li {
+    display: flex;
+    align-items: center; 
+    gap: 8px; 
+}
+.contact-information i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    color: #4338ca;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact-form{
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 32px;
+    width: 592px;
+    height: 398px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-form > div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+.first-block {
+    display: flex;
+    justify-content: space-between;
+}
+.second-block{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label{
+    font-size:14px;
+    font-weight: 500;
+    color:#404040;
+    margin-bottom: 15px;
+    display: block;
+    
+}
+.second-block span{
+    align-self: flex-end;
+}
+.contact-form input , .contact-form textarea{
+    background-color: #fafafa;
+    border : 1px solid #e5e3e5;
+    border-radius: 4px;
+    padding: 10px 14px;
+    resize: none;
+}
+/*contact finish*/
+
+
+/*footer start*/
+.footer{
+    padding: 96px 0;
+    
+}
+.footer > .container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 26px;
+    padding: 0;
+}
+.social ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 26px;
+    padding: 0;
+    font-size:20px
+}
+.social a{
+    font-size:30px;
+}
+/*foter finish*/
